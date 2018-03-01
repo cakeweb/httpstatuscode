@@ -1,0 +1,19 @@
+{
+    "name": "cakeweb/httpstatuscode",
+    "description": "Determina qual o código HTTP a ser retornado",
+    "type": "git",
+    "authors": [
+        {
+            "name": "CakeWeb",
+            "email": "contato@cakeweb.com.br"
+        }
+    ],
+    "require": {
+        "cakeweb/registry": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CakeWeb\\": "src/"
+        }
+    }
+}
